@@ -45,7 +45,7 @@ python3 app.py
     Send POST requests to this endpoint with JSON data containing the required features to get predictions from the RandomForest model.
 ```
 
-##Making Predictions
+## Making Predictions
 
 Send POST requests to the /predict endpoint with JSON data containing the following features:
     'Amount' (int)
@@ -53,7 +53,7 @@ Send POST requests to the /predict endpoint with JSON data containing the follow
     'Is_male' (bool)
     'Days_since_incident' (int)
 
-##Example JSON Data for Prediction
+## Example JSON Data for Prediction
 
 ```json
 {
