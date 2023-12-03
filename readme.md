@@ -24,7 +24,7 @@ cd app-flask-restapi-classifier
 
 Save your pre-trained RandomForest model as a .pkl file in the project directory.
 
-##Run the Flask App
+## Run the Flask App
 
 Open a terminal or command prompt in the project directory.
 Run the Python script app.py:
