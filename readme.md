@@ -1,4 +1,4 @@
-#RandomForest Classification REST API with Flask
+# RandomForest Classification REST API with Flask
 
 This Flask application hosts a REST API for a RandomForest classification model. It allows users to make predictions by sending POST requests with data containing four features: 'Amount' (int), 'Refund' (float), 'Is_male' (bool), and 'Days_since_incident' (int).
 Purpose
@@ -11,29 +11,29 @@ Prerequisites
     Flask library installed (pip install Flask)
     Trained RandomForest classification model saved as a pickle file
 
-##Steps to Launch
+## Steps to Launch
 
-    Clone or Download the Repository
+Clone or Download the Repository
 
 ```bash
 git clone <repository-url>
 cd app-flask-restapi-classifier
 ```
 
-##Place the Trained Model
+## Place the Trained Model
 
-    Save your pre-trained RandomForest model as a .pkl file in the project directory.
+Save your pre-trained RandomForest model as a .pkl file in the project directory.
 
 ##Run the Flask App
 
-    Open a terminal or command prompt in the project directory.
-    Run the Python script app.py:
+Open a terminal or command prompt in the project directory.
+Run the Python script app.py:
 
 ```bash
 python3 app.py
 ```
 
-##API Endpoint
+## API Endpoint
 
     The Flask app will start a local server.
     Access the API endpoint for predictions at:
@@ -47,11 +47,11 @@ python3 app.py
 
 ##Making Predictions
 
-    Send POST requests to the /predict endpoint with JSON data containing the following features:
-        'Amount' (int)
-        'Refund' (float)
-        'Is_male' (bool)
-        'Days_since_incident' (int)
+Send POST requests to the /predict endpoint with JSON data containing the following features:
+    'Amount' (int)
+    'Refund' (float)
+    'Is_male' (bool)
+    'Days_since_incident' (int)
 
 ##Example JSON Data for Prediction
 
@@ -64,9 +64,9 @@ python3 app.py
 }
 ```
 
-##Expected Responses
+## Expected Responses
 
-    Successful Prediction:
+Successful Prediction:
 
 ```json
 {
